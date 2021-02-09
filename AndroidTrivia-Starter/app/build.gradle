@@ -52,4 +52,11 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation "com.google.android.material:material:1.2.1"
+
+    // Navigation Dependency
+    implementation "androidx.navigation:navigation-fragment-ktx:$navigationVersion"
+    implementation "androidx.navigation:navigation-ui-ktx:$navigationVersion"
+
+    // Navigation Drawer
+    implementation "com.google.android.material:material:$version"
 }
