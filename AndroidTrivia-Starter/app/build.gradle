@@ -20,6 +20,9 @@ apply plugin: 'kotlin-android'
 
 apply plugin: 'kotlin-kapt'
 
+// safe args
+apply plugin: 'androidx.navigation.safeargs'
+
 android {
     compileSdkVersion 30
     defaultConfig {
@@ -41,6 +44,9 @@ android {
     }
     buildFeatures {
         dataBinding true
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
     }
 }
 
